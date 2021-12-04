@@ -21,7 +21,7 @@ const FILES_TO_CACHE = [
 self.addEventListener('install', function(evt) {
     evt.waitUntil(
         caches.open(CACHE_NAME).then(function (cache) {
-            console.log('installng cache : ' + CACH_NAME)
+            console.log('installng cache : ' + CACHE_NAME)
             return cache.addAll(FILES_TO_CACHE);
         })
     );

@@ -55,7 +55,7 @@ function uploadTransaction() {
             console.log(err);
         });
     }
-    }
-};
+    };
+}
 
 window.addEventListener('online', uploadTransaction);
