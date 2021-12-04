@@ -5,23 +5,17 @@
 ## TABLE OF CONTENTS
    1. [Description](#description)
    2. [Installation](#installation)
-   3. [Usage](#usage)
-   4. [Contribution](#contribution)
-   5. [Testing](#testing)
-   6. [License](#license)
-   7. [Questions](#questions)
+   3. [Contribution](#contribution)
+   4. [Testing](#testing)
+   5. [License](#license)
+   6. [Questions](#questions)
 
 ## Description
 
-This application generates a professional README through command line prompts.
+This application is a budget tracker that utilizes MongoDB, Mongoose, and Express. This application is a PWA or progressive web application which means it can be used whether or not the user is connected to the internet. This PWA stores data while the user is offline and uploads it to the server when they are back on the web.
 
 ## Installation
-
-Install the npm package ``npm init`` and then install inquirer package ``npm install inquirer`` and email validator with ``npm install email-validator``
-
-## Usage
-
-You must call ``node index.js`` from the command line and answer the following prompts. This will generate the README in the /dist directory
+This application does not need to be installed by the user. Access it through Heroku [here](https://sleepy-hollows-11984.herokuapp.com/)
 
 ## Contribution
     
